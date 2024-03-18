@@ -59,6 +59,8 @@ Examples for browsers:
 
 #### Simple example:
 ````javascript
+// if failed to compile due to JsBarcode undefined, use window.JsBarcode("#barcode", "Hi!"); to workaround
+// if Typescript needs the type of JsBarcode, use npm i @types/jsbarcode to install (or copy the .d.ts file into your project)
 JsBarcode("#barcode", "Hi!");
 // or with jQuery
 $("#barcode").JsBarcode("Hi!");
